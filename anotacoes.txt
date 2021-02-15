@@ -1,0 +1,10 @@
+Collection -> A interface-raiz na hierarquia de coleções a partir da qual as interfaces Set, Queue e List são derivadas. 
+Set -> Uma coleção que não contém duplicatas. 
+List -> Uma coleção ordenada que pode conter elementos duplicados. 
+Map -> Uma coleção que associa chaves a valores e que não pode conter chaves duplicadas. Map não deriva de Collection. 
+Fila -> Em geral, uma coleção primeiro a entrar, primeiro a sair que modela uma fila de espera; outras ordens podem ser especificadas.
+
+(Page 538). 
+
+boxing -> tipo primitivo para classe empacotadora
+unboxing -> classe empacotadora para tipo primitivo
