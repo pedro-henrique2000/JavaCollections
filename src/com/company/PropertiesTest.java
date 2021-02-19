@@ -13,11 +13,13 @@ public class PropertiesTest {
         props.setProperty("color", "red");
         props.setProperty("width", "300");
         listPropertiers(props);
+        props.setProperty("color", "blue");
         save(props);
         props.clear();
         System.out.println("\nAfter clear:\n ");
         listPropertiers(props);
         load(props);
+        System.out.printf("%nThe property color is %s%n", props.getProperty("color"));
     }
 
     private static void save(Properties props) {
